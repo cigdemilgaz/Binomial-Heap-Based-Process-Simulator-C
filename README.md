@@ -34,9 +34,12 @@ The program reads process data from `input.txt`. Each line should represent a pr
 
 Example `input.txt`:
 ```text
-10,0.0
-5,2.0
-8,4.5
+P1  3  0
+P2  1  2
+P3  2  3
+P4  2  5
+P5  2  6
+P6  4  7
 ```
 ### Output
 The program outputs the Average Waiting Time (AWT) for each quantum $q$ and identifies the Best Quantum value that provides the minimum AWT for the simulation.
